@@ -1,76 +1,33 @@
-# Nuxt Minimal Starter
+# Description
+The application provides a country search functionality, when you go to the selected country, it shows information about the holidays that are celebrated there and their dates. 
+The following were used to create the application: Nuxt 3, Pinia, Tailwind CSS, Axios
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## How to install and run app?
+# First step
 
-## Setup
+Use 
+```bash
+git clone https://github.com/DanyloBorodyshyn/country-info-app.git
+```
 
-Make sure to install dependencies:
+# Second step
 
 ```bash
-# npm
+cd country-info-app
+```
+
+## Setup (Third step)
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+## Run app (Fourth step)
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
+## Open app (Fifth step)
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+http://localhost:3000/
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more
-information.
