@@ -23,6 +23,8 @@ npm install
 ```
 
 ## Run app (Fourth step)
+Important!!!
+Find file ".env.example" and rename it to ".env"
 ```bash
 npm run dev
 ```
